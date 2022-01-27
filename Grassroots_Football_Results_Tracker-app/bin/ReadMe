@@ -1,0 +1,39 @@
+ReadMe:
+
+Preperation:
+1. Install mySql workbench, which can be found here: https://www.mysql.com/products/workbench/
+2. Create a user loaclhost with username: jw01543, and password: 1234.
+3. Use port 3306.
+
+Setting up the Program:
+1. First run the ConnectionDB class - this establishes the connection with the database as well as creating the Schema db.
+2. Then run the TableCreateDB class - this will create all the tables needed for the program.
+3. This will also create a main admin account; username: Jamie, Password: Wiggins1, type: Admin.
+
+Running the main Program as guest and using all functionlaities:
+1. Run the Start window class.
+2. Select the account option - this will take you to the login screen.
+3. Use the main admin login (provided at step 3 of Setting up the program) and press login to go to the admin menu screen.
+4. At the login stage you can press exit to close the application, reset to set all the field to null, or the '<' button to go back to the start window.
+5. On the admin menu you can select the create account option, here enter manager profiles to create with a username, password and team and then press create.
+6. Create at least 5 managers, then select the '<' button to go back to the admin menu.
+7. Now select the chat option - this will open the chat window.
+8. You can type a message to send to a manager (chose manager in the drop down selection) and press the '>' button which denotes send, and the '@' button to refresh the messages from managers, which will currently not have any
+9. Then select the back button.
+10. Select the logout button.
+11. Now log in as a manager using one of the manger profile you created earlier - this will take you to the manager menu screen.
+12. You can select the chat option which works in the same ways as ir does for admins except the message will send to an admin you select.
+13. Then press the back button.
+14. Now select the submit results options - taking you to the submit results page.
+15. Enter results into the database, each result must be submitted twice for it to verify (in other words press submit twice).
+16. Then press the back button.
+17. Now select the guest option button - taking you to the guest menu.
+18. Now select the league table option - this will display the league table, each column can be sorted numerically.
+19. Press the back button.
+20. Now select the predicted league table - this will display the predicted table whcih can also be sorted numerically *there may be issues with this were the database can't establish any more connections
+21. Again press the back button.
+22. And once again press the back button - this will take you to the start window.
+23. Select guest option.
+24. This provides you with two options; 1) league table - which displays the league table or 2) league table predictions - which displays the predictions.
+25. To go back to the guest menu from either of these screens select the '<' button, which is the back button throughout the program.
+26. Select the '<' button one more time to go back to the start window.
